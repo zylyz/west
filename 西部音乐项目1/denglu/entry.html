@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/model.css">
+    <link rel="stylesheet" type="text/css" href="css/entry.css" />
+    <script type="text/javascript" src="js/entry.js"></script>
+</head>
+<body>
+    <div class="top_nav"><!-- 顶部导航开始 -->
+    	<div class="nav_center">
+    		<div><a href=""><img src="img/shouyelogo_05.png" class="img_logo"></a></div>
+    		<div><a href=""><img src="img/shouyetou_02.png" class="img_west"></a></div>
+    		<div class="nav_center_center">
+    			<ul>
+    				<li style="margin-right:40px"><a href="">我的音乐</a></li>
+    				<li style="margin-right:34px"><a href="">下载客户端</a></li>
+    			</ul>
+    		</div>
+    		<div class="search">
+    			<input type="text" class="inputs" value="单曲/歌手/专辑/MV">
+    			<div><a href=""><img src="img/sousuo.png"></a></div>
+    		</div>
+    		<div class="zhuce">
+    			<a href="javasc:;" class="a">注册</a>
+	    		<a href="javasc:;" class="a" id="denglu">登录</a>
+	    		<img src="img/select.png"/>
+    		</div>	
+    	</div>
+    </div><!-- 顶部导航结束 -->
+    <div class="under_top_nav"><!-- 顶下导航开始 -->
+    	<div class="under_nav_center">
+    		<ul>
+    			<li><a href="">首页</a></li>
+    			<li><a href="">排行榜</a></li>
+    			<li><a href="">歌手</a></li>
+    			<li><a href="">专辑</a></li>
+    			<li><a href="">MV</a></li>
+    			<li style="margin-right:none"><a href="">电台</a></li>
+    		</ul>
+    	</div>
+    </div><!-- 顶下导航结束 -->
+    <div><!-- 中间内容块  你所选择的内容在里面写,上面和下面最好别改,如果发现上面有什么改的就提出来,然后大家进行讨论在看是否有改的必要,顶下导航的下滑线麻烦大家根据自己项目来改 -->
+    	<div class="entry"><!--登录模块大盒子-->
+    		<div class="entry_title"><!--登录最上面标题-->
+    			<span>登录</span>
+    			<span><img src="img/x.png"/></span>
+    		</div>
+    		<div class="entry_content" id="entry_content"><!--下面的内容盒子-->
+    			<form action=""  method="post"><!--登录表单部分-->
+    				<span>
+    					<input type="text" name="账号" placeholder="请输入手机号或邮箱" maxlength="20"/>
+    				</span>
+    				<span>
+    					<input type="password" name="密码" placeholder="请输入密码" maxlength="20"/>
+    				</span>
+    				<span id="span_xuan">
+    					<input type="checkbox" name="自动登录" id='xuan' />
+    				</span>
+    				<label for="xuan">
+    					自动登录
+    				</label>
+    				<p>忘记密码？</p>
+    				<span>
+    					<input type="submit" name="提交" value="立即登录"/>
+    				</span>
+    			</form>
+    			<div class="bottom"><!--最下面部分-->
+    				<img src="img/jt.png" alt="" class="jt" />	
+    				<p class="p">前往注册</p>
+    				<li>
+    					<p>其他方式登录</p>
+	    				<img src="img/QQ.png" alt="" />
+	    				<img src="img/wechat.png" alt="" class="img"/>
+	    				<img src="img/weibo.png" alt="" />
+    				</li>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="bottom_bottom">
+    	<img src="img/bottom.png" class="img">
+    </div>  
+</body>
+</html>

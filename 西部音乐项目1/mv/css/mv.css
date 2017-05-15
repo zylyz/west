@@ -1,0 +1,270 @@
+.startMV{
+    width:100%;
+    height:100%;
+}
+/*mv轮播*/
+	.mvLunbo{
+		width: 100%;
+		height:500px;
+        position: relative;
+		background-color: #313333;
+	} 
+    .weizhi{position: relative;margin: 0 auto; width: 1500px;height: 500px; }
+    .weizhi1{position: absolute;margin: 0 auto; width: 100%;height: 100%; overflow: auto;}
+
+    .mvLunbo .weizhi ul li{
+        position: absolute;
+    }
+    .mvLunbo .weizhi .weizhi1 ul li a img{
+        width:100%;
+        text-align: left;
+    }
+    .mvLunbo .weizhi .weizhi1 ul li::before{
+        content:"";
+        background:url(../img/bofang_33.png) no-repeat;
+        display: inline-block;
+        width:45px;
+        height:45px;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        display: none;
+    }
+    .mvLunbo .weizhi .weizhi1 ul li::after{
+        content:"韩庚　MV独家首发";
+        display: inline-block;
+        width:94.8%;
+        height:72px;
+        background-color: rgba(51,51,51,0.4);
+        position: absolute;
+        bottom:0px;
+        left:0;
+        padding:12px 0 0 36px;
+        color:#dcdcdc;
+        display: none;
+    }
+    .mvLunbo .weizhi  .weizhi1 ul li a::after{
+        content:"深夜听歌流眼泪";
+        display: inline-block;
+        width:94.8%;
+        height:20px;
+        vertical-align: top;
+        position: absolute;
+        bottom:0px;
+        left:0;
+        padding:12px 0 26px 36px;
+        color:#dcdcdc;
+        font-size: 12px;
+        display: none;
+    }
+    .mvLunbo  .weizhi .weizhi1 ul li:hover::before{
+        display: block;
+    }
+    .mvLunbo .weizhi ol {
+            position: absolute;
+            bottom:20px;
+            left:590px;
+            width:300px;
+            height:20px;
+        }
+    .mvLunbo .weizhi ol li {
+            float: left;
+            width: 30px;
+            height: 1px;
+            background: #9f9fa0;
+            border: 1px solid #ccc;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    .mvLunbo .weizhi ol li:nth-child(3) {
+            background: #eeeeee;
+            height: 2px;
+        }
+    .mvLunbo #last{
+         position: absolute;
+         top:40%;
+         left:0;
+         transform:rotate(-180deg);
+    }
+    .mvLunbo #next{
+         position: absolute;
+         top:40%;
+         right:0;
+    }
+/*全部mv*/
+    .allMv{
+    	width: 1000px;
+    	height: 40px;
+        padding-top: 40px;  
+        position: relative;  
+        margin: 0 auto;
+        /*border:1px solid red;	*/
+        padding-bottom: 19px;
+    }
+    .allMv .youReXin{
+    	position: absolute;
+    	right: 0;
+    }
+    .allMv .youReXin div{
+    	float: left;
+    	width: 50px;
+    	height: 40px;
+    	text-align: center;
+
+    }
+    .allMv .youReXin div a{
+    	color: white;    	
+    	line-height: 40px;
+    }
+    .allMv .youReXin .hot{
+    	background-color: #e1a003;
+    }
+    .allMv .youReXin .new{
+    	background-color: #313333;
+    }
+    .allMv .quanbuMv{
+    	position: absolute;
+    	left: 0;
+    	top:46px;
+    	font-size: 20px;
+    	color: #333;
+    }
+    .allMv .triangle_border_down{
+	    width:0;
+	    height:0;
+	    border-width:10px 10px 0;
+	    border-style:solid;
+	    border-color:#333 transparent transparent;
+	    position:absolute;
+	    left: 81px;
+	    top: 10px;
+    }
+/*mv图片及介绍*/
+#mv{
+    width:1000px;
+    height:1206px;
+    margin:0 auto;
+    /*border:1px solid red;*/
+}
+.sub_div{
+    width:283px;
+    height:220px;
+    float:left;
+    margin-bottom:27px;
+    position: relative;
+    cursor: pointer;
+}
+.sub_div::before{
+    content:"";
+    display: inline-block;
+    width:283px;
+    height:162px;
+    background:url(../img/bofang_33.png) no-repeat center;
+    position: absolute;
+    top:10;
+    left:0;
+    display: none;
+}
+.sub_div:hover::before{
+    display:block;
+}
+#mv div:nth-child(2){
+    width:284px;
+    margin:0 72px 0 72px;
+}
+#mv div:nth-child(5){
+    width:284px;
+    margin:0 72px 0 72px;
+}
+#mv div:nth-child(8){
+    width:284px;
+    margin:0 72px 0 72px;
+}
+#mv div:nth-child(11){
+    width:284px;
+    margin:0 72px 0 72px;
+}
+#mv div:nth-child(14){
+    width:284px;
+    margin:0 72px 0 72px;
+}
+#mv .sub_div p{
+    width:100px;
+    font-size:14px;
+    /*border:1px solid red;*/
+    color:#333333;
+}
+#mv .sub_div p:nth-child(2){
+    float:left;
+    width:170px;
+    height:12px;
+}
+#mv .sub_div p:nth-child(3){
+    float:right;
+    width:78px;
+    height:12px;
+    font-size:12px;
+    color: #666666;
+}
+#mv .sub_div p:nth-child(4){
+    width:78px;
+    height:12px;
+    font-size:12px;
+    /*border:1px solid red;*/
+    color: #666666;
+    position: absolute;
+    top:184px;
+}
+#mv .sub_div p:nth-child(5){
+    width:78px;
+    height:12px;
+    font-size:12px;
+    /*border:1px solid blue;*/
+    color: #666666;
+    position: absolute;
+    top:204px;
+}
+#mv .sub_div p:hover{
+    color:#e1a003;
+}
+#paging{
+    width:1000px;
+    height:100px;
+    margin:0 auto;
+    position: relative;
+    cursor: pointer;
+    /*border:1px solid red;*/
+}
+/*最下面的页数*/
+#paging ul.page {
+    float: left;
+    width: 500px;
+    margin-left:250px;
+    font-size: 16px;
+    color: #666666;
+    /*border:1px solid red;*/
+}
+/*对每一个li设置样式*/
+#paging ul.page li {
+    float: left;
+    margin-left: 20px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+    /*border:1px solid red;*/
+}
+/*中间的“…“鼠标悬停为文本图标*/
+#paging ul.page li.text {
+    cursor: text;
+}
+/*设置第一个和最后一个数字页数距离*/
+#paging ul.page li.first,
+#paging ul.page li.rear {
+    margin-left: 10px;
+}
+#click_style_1{
+    background-color: #333334;
+    color:white;
+}

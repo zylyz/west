@@ -1,0 +1,194 @@
+
+    .under_top_nav .under_nav_center ul li:nth-child(6){
+    	display: block;
+    	height: 47px;
+    	line-height: 50px;
+    	width: 43px;
+    	text-align: center;
+    	border-bottom:3px solid #e7a80c; 
+    }
+    .under_top_nav .under_nav_center ul li:nth-child(6) a{
+    	color:  #e7a80c;
+    }
+/*电台*/
+.radio_station{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 40px;
+	position: relative;
+	height: 1140px;
+}
+/*电台左面部分*/
+    .radio_station .radio_station_left{
+    	padding-top: 4px;
+    	width: 118px;
+    	height: 600px;
+    	top: 31px;
+    	position: absolute;
+    	left: 0;
+    }
+    #leftLeftLine{
+    	width: 23px;
+    	position: absolute;
+    	left: 0px;
+    }
+    .smallTheadImg{
+        padding: 0px;
+        position: absolute;
+        left: 4px;
+    }
+    #rightRightLine{
+    	width: 23px;
+    	position: absolute;
+    	right: 0px;
+    }
+    #centerCenterWord{
+    	position: absolute;
+    	width: 70px;
+    	height: 592px;
+    	left: 23px;
+    }
+    .centerWord{
+    	width: 70px;
+    	height: 30px;
+        text-align: center;
+        position: relative;
+        top: 18px;
+        line-height:30px;
+        padding-bottom: 2px;
+        color: #333;
+        cursor: pointer;
+    }
+    #centerCenterWord a{
+    	color: #333;
+    }
+    .goldTheadImgL{
+        padding: 0px;
+        position: absolute;
+        left: 4px;
+        display: none;		
+    }
+    .goldTheadImgR{
+        padding: 0px;
+        position: absolute;
+        left: 4px;
+        display: none;
+    }
+/*电台右部分开始*/
+    .radio_station_right{
+    	position: absolute;
+    	left: 158px;
+    }
+     .radio_station_right .radio_station_new{
+    	font-size: 24px;
+    	color: #333;
+    }
+    .radio_station_right #station_new_image{
+    	padding-top: 30px;
+    	width: 100%;
+    }
+    .starNewBox{
+    	display: inline-block;
+    	width: 150px;
+    	padding-right: 22px;
+    }
+    .starNewStation{
+    	color:#333;
+    	display: inline-block;
+    	padding-top: 5px;
+    }
+    .stationIntroduction{
+    	display: inline-block;
+    	color: #666;
+    	padding-top: 3px;
+    }
+    .radio_station_paihang{
+    	padding-top: 42px;
+    	position: relative;
+    	width: 100%;
+    	height: 40px;
+    }
+    .radio_station_right .radio_station_paihang .station_paihang_word{
+    	font-size: 24px;
+    	color: #333;
+    }
+    .radio_station_right .radio_station_paihang .station_paihang_hot{
+    	position: absolute;
+    	right: 22px;
+    	top:42px;
+    }
+    .radio_station_right .radio_station_paihang .station_paihang_hot div{
+    	float: left;
+    	width: 50px;
+    	height: 40px;
+    	background-color: #313333;
+    	color: white;
+    	text-align: center;
+    	line-height: 40px;	
+    	font-size: 14px;
+    	cursor: pointer;
+    }
+    #stationPaihangImg{
+    	position: relative;
+    	margin-top: 20px;
+    	overflow: hidden;
+        width: 100%;
+        height: 750px;
+    }
+    #stationPaihangImg .staPaihangImgA{
+    	position: absolute;
+    	margin-right: 20px;
+    	margin-bottom: 30px;
+    	display: inline-block;
+    }
+    #stationPaihangImg .staPaihangImgA .starPaihangStation{
+    	color: #333;
+    	font-size: 14px;
+    	padding-top: 8px;
+    }
+    #stationPaihangImg .staPaihangImgA .starPaihangName{
+    	font-size: 12px;
+    	color: #333;
+    	padding-top: 4px;
+    }
+    #stationPaihangImg .staPaihangImgA .starPaihangTotal,.starPaihangOrder{
+    	font-size: 12px;
+    	color: #999;
+    	padding-right: 12px;
+    }
+    #stationPaihangChoose{
+        width: 192px;
+    	margin-top: 37px;
+        height: 36px;
+        margin: 0 auto;
+        position: relative;
+    }
+	#stationPaihangChoose ul a li{
+	    width:36px;
+	    height:36px;
+	    float:left;
+	    line-height:36px;
+	    text-align: center;
+	    font-size: 16px;
+	    color:#333;
+	    margin:0 8.5px;
+	    cursor: pointer;
+	}
+	/*上页按钮*/
+	#stationPaihangChooseUp{
+		position: absolute;
+	    left:0px;
+	    line-height: 36px;
+	    top: 2px;
+	    cursor: pointer;
+	}
+	/*下页按钮*/
+	#stationPaihangChooseDown{
+	    position: absolute;
+	    right:0px;
+	    line-height: 36px;
+	    top: 2px;
+	    cursor: pointer;
+	}
+
+

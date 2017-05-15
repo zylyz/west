@@ -1,0 +1,321 @@
+
+.center{
+	width: 100%;
+	height: 100%;
+background-image:-webkit-gradient(linear,left top, right bottom, from(#2e2d2d),to(#7c2b2c));
+}
+.center .center_top{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.center .center_top .center_one{
+	width: 330px;
+	height: 100%;
+}
+.center .center_top .center_two{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 670px;
+	height: 100%;
+}
+.center .center_top .center_one img{
+	margin-top: 70px;
+	margin-left: 50px;
+}
+.center .center_top .center_one p{
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+	text-align: center;
+}
+.center .center_top .center_one .geci{
+	width: 330px;
+	height: 370px;
+	margin-top: 60px;
+	overflow: hidden;
+}
+.center .center_top .center_one .geci p{
+	margin-top: 26px;
+}
+.center .center_top .center_two .center_first{
+	width: 100%;
+	height: 40px;
+	margin-top: 70px;
+}
+.center .center_top .center_two .center_first a,#all{
+	display: block;
+	width: 120px;
+	height: 40px;
+	float: left;
+	color:#efefef;
+	border: 1px solid #a0a0a0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.center .center_top .center_two .center_second {
+	width: 100%;
+	height: 640px;
+	margin-top: 20px;
+}
+
+.center .center_top .center_two .center_second ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #666666;
+}
+.center .center_top .center_two .center_second ul li span{
+	font-size: 12px;
+	color: #666666;
+}
+.center .center_top .center_two .center_second ul li span:nth-child(1){
+	margin-left: 60px;
+	margin-right: 355px;
+}
+.center .center_top .center_two .center_second ul li span:nth-child(2){
+	margin-right: 135px;
+}
+.center .center_top .center_two .center_second ul li span:nth-child(3){
+	margin-left: 20px;
+}
+.center .center_top .center_two .center_second  #listmusic{
+    width: 100%;
+    height: 100%;
+}
+.center .center_top .center_two .center_second  #listmusic .gg{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #666666;
+}
+.center .center_top .center_two .center_second  #listmusic .gg span{
+    float: left;
+    color: #efefef;
+    font-size: 14px;
+    cursor: pointer;
+}
+.center .center_top .center_two .center_second .kk{
+	display: block;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 15px;
+	margin-right: 10px;
+	border: 1px solid #666666;
+}
+#xiaotu{
+	margin-top: 16px;
+}
+.center .center_top .center_two .center_second .ss{
+	display: block;
+	width: 320px;
+	height: 50px;
+	margin-left: 20px;
+}
+.center .center_top .center_two .center_second .yy{
+	display: block;
+	width: 180px;
+	height: 50px;
+	margin-left: 60px;
+	/*margin-right: 10px;*/
+}
+.bofang{
+	width: 100%;
+	height: 70px;
+	background-color: #313332;
+}
+.bofang .bofang_one{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+}
+.bofang .bofang_one #start{
+	width: 38px;
+	height: 70px;
+	/*border: 1px solid red;*/
+}
+#box{
+      width:36px;
+      height:36px;
+      background:#313333;
+      border-radius:50%;
+      border:2px solid #fff;
+      float:left;
+      margin-top:13px;
+     }
+     .play{
+      width:0px;height:0px;
+      border-left:14px solid #fff;
+      border-top:10px solid rgba(255,255,255,0);
+      border-bottom:10px solid rgba(255,255,255,0);
+      float:left;
+      margin-top:8px;
+      margin-left:12px;cursor:pointer;
+     }
+     .pause{
+       width:6px;height:18px;
+       border-left:4px solid #fff;
+       border-right:4px solid #fff;
+       float:left;
+       margin-top:10px;
+       margin-left:10px;cursor:pointer;
+     }
+.bofang .bofang_one ul li{
+	display:-webkit-flex;
+    display:flex;
+	height: 70px;
+	float: left;
+}
+.bofang .bofang_one ul li:hover{
+	cursor: pointer;
+}
+.bofang .bofang_one ul li img{
+	margin: auto;
+}
+.bofang .bofang_one ul li:nth-child(2){
+	margin-left: 34px;
+	margin-right: 34px;
+}
+.bofang .bofang_one ul li:nth-child(4){
+	margin-left: 20px;
+	margin-right: 16px;
+}
+.bofang .bofang_one ul li:nth-child(5){
+	width: 430px;
+	height: 70px;
+	background-color: #313333;
+	/*position: relative;*/
+}
+.bofang .bofang_one .geshou{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 10px;
+	left: 248px;
+	color: #fff;
+}
+.bofang .bofang_one .shijian{
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	right: 320px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+.bofang .bofang_one .shijian .current{
+	margin-left: 52px;
+}
+#progress{
+      width:430px;
+      height:5px;
+      background:#d2d2d2;
+      border-radius:5px;
+      margin-top: 45px;
+      position:relative;
+    }
+    #bar{
+     width:0%;
+     height:100%;
+     background:#e7a80c;
+     border-radius:3px;
+     display:inline-block;
+     position:absolute;
+     top:0;
+     left:0;
+    }
+    #control{
+      width:15px;
+      height:15px;
+      position:absolute;
+      border-radius:100%;
+      left:0;
+      top:-5px;
+      background:#e7a80c;
+      cursor:pointer;
+    }
+    #dd{
+    	display: inline-block;
+    	width: 7px;
+    	height: 7px;
+    	border-radius: 50%;
+    	position: absolute;
+    	top: 4px;
+    	left: 4px;
+        background: #313333;
+    }
+.bofang .bofang_one ul li:nth-child(6){
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.bofang .bofang_one ul li:nth-child(8){
+	margin-left: 24px;
+	margin-right: 40px;
+}
+.bofang .bofang_one ul li:nth-child(9){
+	width: 110px;
+	height: 70px;position: relative;
+	/*border: 1px solid blue;*/
+}
+#volume{ 
+width: 70px; 
+height: 3px;
+background-color: #ccc;
+position: absolute;
+right: 0;
+top: 35px; 
+}
+#volumeBar{
+display: inline-block;
+width: 0px; 
+height:100%;
+background-color: #ccc;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 5px;
+cursor: pointer;
+}
+#volumeControl{
+width: 8px;
+height: 8px;
+border-radius: 5px;
+background-color: #d2d2d2;
+position: absolute;
+top: -3px;
+left: 30px;
+cursor: pointer;
+
+}
+.bofang .bofang_one .yinliangtu{
+	position: absolute;
+	left: 0;
+    top: 25px;
+    width: 26px;
+    height: 22px;
+}
+.bofang .bofang_one ul li:nth-child(10){
+	margin-left: 120px;
+	position: absolute;
+	top: -25px;
+	right: -220px;
+	width: 50px;
+	height: 50px;
+	background-color: #313332;
+	border-radius: 50%;
+}
+.bofang .bofang_one ul li:nth-child(10) img{
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
