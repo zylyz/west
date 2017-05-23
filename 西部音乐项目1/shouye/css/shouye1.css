@@ -309,7 +309,7 @@ ul,ol{
         /*border:1px solid red;*/
         position: absolute;
         top: 83px;
-        left: 211px;
+        left: 241px;
         color: #333333;
         font-size: 32px;
         font-family:'微软雅黑';
@@ -333,7 +333,7 @@ ul,ol{
         .classify ul{
         position: absolute;
         top: 168px;
-        left: 313px;
+        left: 348px;
         }
        .classify ul li{
         float: left;
@@ -362,7 +362,7 @@ ul,ol{
             left: -460px; 
         }
         .tj_bottom .mrtj,.gsdh,.rmgd{
-            width: 1000px;
+            width: 100%;
             height: 590px;            
             position: absolute;
             top: 0px;
@@ -371,11 +371,20 @@ ul,ol{
         }
         .tj_bottom .mrtj {
             display: block;
+            width: 100%;
+            height:590px;
+        }
+        .tj_bottom  .mrtj ul{
+            /*border:1px solid red;*/
+            display: block;
             width: 1000px;
-            height:260px;
+            height:295px;
         }
         .tj_bottom  ul li{
             float: left;
+            display: inline-block;
+            width: 200px;
+            height: 200px; 
         }
         .tj_bottom  ul .num_two,.num_three,.num_four{
             margin-left: 66px;
