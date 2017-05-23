@@ -22,6 +22,7 @@
     }
     .centerlist .centerlist_left .list_center ol {
     	padding-bottom: 20px;
+        position: absolute;
     }
     .centerlist .centerlist_left .list_center ol li{
     	font-size: 18px;
@@ -29,7 +30,7 @@
     }
     .centerlist .centerlist_left .list_center ul li{
     	display: block;
-    	padding-bottom: 10px;
+        position: absolute;
     }
     .centerlist .centerlist_left .list_center ul li a{
     	font-size: 14px;
